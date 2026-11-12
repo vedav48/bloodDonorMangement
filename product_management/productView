@@ -1,0 +1,12 @@
+rom mysql import connector
+from datetime import datetime
+class Productmanagement:
+    def ___init_(self):
+            self.connection=mysql.connector.connect(
+            host="localhost",
+            user="root",
+            port=3307,
+            password="bt21jk",
+            database="shop_db"
+        )
+        print("Database Connected Successfully!")

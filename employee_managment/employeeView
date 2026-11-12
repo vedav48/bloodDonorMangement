@@ -1,0 +1,12 @@
+from mysql import connector
+from datetime import datetime
+class EmployeeManager:
+    def ___init_(self):
+            self.connection=mysql.connector.connect(
+            host="localhost",
+            user="root",
+            port=3307,
+            password="bt21jk",
+            database="employee_bd"
+        )
+        print("Database Connected Successfully!")
